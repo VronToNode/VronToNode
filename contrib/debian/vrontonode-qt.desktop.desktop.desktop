@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VronToNode
+Comment=VronToNode P2P Cryptocurrency
+Exec=vrontonode-qt %u
+Terminal=false
+Type=Application
+Icon=vrontonode128
+MimeType=x-scheme-handler/vrontonode;
+Categories=Office;Finance;
+Name[ru]=vrontonode-qt.desktop.desktop

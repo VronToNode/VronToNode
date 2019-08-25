@@ -1,0 +1,26 @@
+# /etc/conf.d/vrontonoded: config file for /etc/init.d/vrontonoded
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/vrontonode/vrontonode.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/vrontonoded"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/vrontonoded.pid"
+
+# Where to write vrontonoded data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/vrontonoded"
+
+# User and group to own vrontonoded process
+#BITCOIND_USER="vrontonode"
+#BITCOIND_GROUP="vrontonode"
+
+# Path to vrontonoded executable
+#BITCOIND_BIN="/usr/bin/vrontonoded"
+
+# Nice value to run vrontonoded under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
